@@ -1,4 +1,11 @@
-
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 150px;
+    padding: 0;
+}
 #myHeader {
       font-family: 'Courier New', Courier, monospace;
       color: #13325b;
@@ -24,7 +31,7 @@ table,
 caption {
     
       color: whitesmoke;
-      background-color: #9f7944;
+      background-color: #13325b;
       font-size: 30px;
       font-family: 'Courier New', Courier, monospace;
       font-weight: bold;
@@ -53,4 +60,8 @@ caption {
       text-align: center;
       padding: 5x;
       margin: 5px;
+    }
+
+     tbody tr:nth-child(even) {
+      background-color: #d6e9e2;
     }
