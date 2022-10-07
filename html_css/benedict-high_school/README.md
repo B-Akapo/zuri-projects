@@ -26,3 +26,5 @@ To ease the task for Mr Ade, Prepare an HTML table that has:
 5. Ensure each subject score (td) has a class attribute.
 6. Ensure your table has a border attribute with a value of 1, cell padding, and cell spacing with a value of 5. 
 7. Ensure your total scores has a colspan twice the score's colon.
+
+you can visit my [codepen](https://codepen.io/b-akapo/pen/VwxEKLY) to see the output.
