@@ -1,0 +1,56 @@
+
+#myHeader {
+      font-family: 'Courier New', Courier, monospace;
+      color: #13325b;
+      text-align: center;
+    }
+
+.teacher {
+    font-family: 'Courier New', Courier, monospace;
+      color: #13325b;
+      text-align: left
+}
+
+table,
+    th,
+    td {
+      text-align: center;
+      border: 1px solid black;
+      border-collapse: collapse;
+      border-spacing: 5px;
+      padding: 5px;
+    }
+
+caption {
+    
+      color: whitesmoke;
+      background-color: #9f7944;
+      font-size: 30px;
+      font-family: 'Courier New', Courier, monospace;
+      font-weight: bold;
+      padding: px;
+
+    }
+
+ .content {
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 150%;
+      color: black;
+      text-align: center;
+      padding: 5px;
+      margin: 5px;
+    }
+
+    .pass {
+      color: #13325b;
+      text-align: center;
+      padding: 5px;
+      margin: 5px;
+    }
+
+    .fail {
+      color: red;
+      text-align: center;
+      padding: 5x;
+      margin: 5px;
+    }
