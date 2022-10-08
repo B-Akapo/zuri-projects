@@ -1,0 +1,63 @@
+img{
+    width: auto;
+    height: auto;
+}
+#myHeader {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Courier New", Courier, monospace;
+    color: #13325b;
+    text-align: center;
+    }
+
+body {
+    background-color: lightgrey;
+}
+
+article {
+    
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+hr {
+    height: 1px;
+    background-color: black;
+    margin: 0px;
+}
+
+h2 {
+     margin: 0
+}
+
+ul {
+
+  text-align: justify;
+  width: 100%
+  line-height: 1.8;
+}
+
+li {
+    margin: 18px 0;
+    text-align: justify;
+}
+
+footer {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+
+blockquote {
+  font-style: italic;
+  max-width: 750px;
+  margin: 0 auto 30px auto;
+  text-align: left;
+}
+
