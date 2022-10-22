@@ -20,3 +20,5 @@ Below are a few of the projects I have worked on.
 
 
 5. **[tribute_page](https://github.com/B-Akapo/zuri-projects/tree/main/html_css/tribute_page)** - Created a tribute page for Maya Angelou
+
+6. **[flexbox_layout](https://github.com/B-Akapo/zuri-projects/tree/main/html_css/flexbox_layout)** - Created a 3 & 5 column card using flex and grid layout
