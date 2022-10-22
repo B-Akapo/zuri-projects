@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1a1c28;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+main {
+    display: grid;
+    grid-template-areas: 
+    'a a b'
+    'a a b'
+    'c d d'
+    'c e e'
+    'c e e'
+    ;
+    width: 30%;
+    gap: 10px;
+}
+
+
+.card-a {
+    background-color: #eb5020;
+    grid-area: a;
+    padding: 3em;
+}
+
+.card-b {
+    background-color: #ffa401;
+    grid-area: b;
+    padding: 2em;
+}
+
+.card-c {
+    background-color: #05aa42;
+    grid-area: c;
+    padding: 5em;
+}
+
+.card-d {
+    background-color: #01aefd;
+    grid-area: d;
+    padding: 1.5em;  
+}
+
+.card-e {
+    background-color: #01aefd;
+    grid-area: e;
+    padding: 1.5em;   
+}
+
+@media screen and (max-width: 600px) {
+    
+    body {
+        background-color: #1a1c28;
+        margin-right: 10px;
+        margin: auto;
+        min-height: 100vh;
+    }
+    main {
+        width: 60%;
+        gap: 10px;
+    }
+    
+    
+    .card-a {
+        background-color: #eb5020;
+        grid-area: a;
+        padding: 1.5em;
+    }
+
+    .card-b {
+        background-color: #ffa401;
+        grid-area: b;
+        padding: 2em;
+    }
+
+    .card-c {
+        background-color: #05aa42;
+        grid-area: c;
+        padding: 4em;
+    }
+
+    .card-d {
+        background-color: #01aefd;
+        grid-area: d;
+        padding: -3em;  
+    }
+
+    .card-e {
+        background-color: #01aefd;
+        grid-area: e;
+        padding: -2em;
+        gap: 50px;   
+    }
+    
+  }
+  
