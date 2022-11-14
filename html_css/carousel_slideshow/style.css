@@ -5,7 +5,7 @@
 }
 
 .container {
-  width: 100%;
+  width: 90%;
   height: 100vh;
   background: white;
   display: flex;
@@ -16,9 +16,20 @@
 .swiper {
   width: 80%;
   height: fit-content;
+  left: 100px;
 }
 
 .swiper-slide img {
   width: 100%;
+}
+
+#slide2, #slide3, #slide5, #slide6{
+
+  margin-top: 120px;
+
+}
+
+#slide4 {
+  margin-top: 40px;
 }
 
