@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- FONTS -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=Nunito&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <!-- swiper -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <title>Ise-owo: Job Portals</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar">
+      <h2 class="navbar-logo"><a href="#">Iṣẹ-ọwọ</a></h2>
+      <div class="navbar-menu">
+        <a href="#jobs">Jobs</a>
+        <a href="#companies">Companies</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#blog">Blog</a>
+        <a href="#">Sign In</a>
+      </div>
+      <div class="menu-toggle">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+    <!-- Header -->
+    <header>
+      <h1 class="header-title">
+        FIND YOUR <br />
+        <span>DREAM JOB</span> <br />
+        WITHOUT HASSLE
+      </h1>
+    </header>
+
+    <!-- search box -->
+    <div class="search-wrapper">
+      <div class="search-box">
+        <div class="search-card">
+          <input
+            type="text"
+            class="search-input"
+            placeholder="Job title or keywords"
+          />
+          <button class="search-button">Search</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Filter box-->
+    <div class="filter-box">
+      <div class="filter-dropdown">
+        <select name="job-level" id="job-level" class="filter-select">
+          <option>Job Level</option>
+          <option>Intern</option>
+          <option>Entry</option>
+          <option>Mid-Senior</option>
+          <option>Senior</option>
+          <option>Director</option>
+        </select>
+        <select name="job-function" id="job-function" class="filter-select">
+          <option>Job Function</option>
+          <option>IT</option>
+          <option>Education</option>
+          <option>Customer Service</option>
+          <option>Project Management</option>
+        </select>
+        <select name="employment" id="employment" class="filter-select">
+          <option>Employment Type</option>
+          <option>Full Time</option>
+          <option>Part Time</option>
+          <option>Contract</option>
+        </select>
+        <select name="location" id="location" class="filter-select">
+          <option>Location</option>
+          <option>Remote</option>
+          <option>Hybrid</option>
+          <option>On Site</option>
+        </select>
+        <select name="education" id="education" class="filter-select">
+          <option>Education</option>
+          <option>High School</option>
+          <option>Bachelor's Degree</option>
+          <option>Master's Degree</option>
+          <option>Phd.</option>
+        </select>
+      </div>
+      <div class="filter-chosen">
+        <div class="chosen-card">
+          Remote <i class="fas fa-times-circle"></i>
+        </div>
+        <div class="chosen-card">
+          Full Time <i class="fas fa-times-circle"></i>
+        </div>
+        <div class="chosen-card">
+          Financial Tech <i class="fas fa-times-circle"></i>
+        </div>
+        <div class="chosen-card">
+          Entry Level <i class="fas fa-times-circle"></i>
+        </div>
+      </div>
+    </div>
+
+    <!-- Job Listing -->
+    <!-- job 1 -->
+    <section class="job-list" id="jobs">
+      <div class="job-card">
+        <div class="job-name">
+          <img class="job-profile" src="images/Disney_wordmark.svg" />
+          <div class="job-detail">
+            <h4>Disney</h4>
+            <h3>Customer Service Representative</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </div>
+        </div>
+        <div class="job-label">
+          <a href="#" class="label-a">English</a>
+          <a href="#" class="label-b">Customer Experience</a>
+          <a href="#" class="label-c">Customer Service</a>
+        </div>
+        <div class="job-posted">Posted 2 mins ago</div>
+      </div>
+
+      <!-- Job 2 -->
+      <div class="job-card">
+        <div class="job-name">
+          <img class="job-profile" src="images/Microsoft-Logo.wine.svg" />
+          <div class="job-detail">
+            <h4>Microsoft</h4>
+            <h3>Frontend Developer</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </div>
+        </div>
+        <div class="job-label">
+          <a href="#" class="label-a">HTML</a>
+          <a href="#" class="label-b">CSS</a>
+          <a href="#" class="label-c">Javascript</a>
+        </div>
+        <div class="job-posted">Posted 2 mins ago</div>
+      </div>
+
+      <!-- job 3 -->
+      <div class="job-card">
+        <div class="job-name">
+          <img
+            class="job-profile"
+            src="images/Amazon_(company)-Logo.wine.svg"
+          />
+          <div class="job-detail">
+            <h4>Amazon</h4>
+            <h3>DevOps Engineer</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </div>
+        </div>
+        <div class="job-label">
+          <a href="#" class="label-a">Linux</a>
+          <a href="#" class="label-b">Containerization</a>
+          <a href="#" class="label-c">Scripting</a>
+        </div>
+        <div class="job-posted">Posted 5 mins ago</div>
+      </div>
+
+      <!-- job 4 -->
+      <div class="job-card">
+        <div class="job-name">
+          <img class="job-profile" src="images/Reddit-Logo.wine.svg" />
+          <div class="job-detail">
+            <h4>Reddit</h4>
+            <h3>Writer</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </div>
+        </div>
+        <div class="job-label">
+          <a href="#" class="label-a">SEO</a>
+          <a href="#" class="label-b">Editing</a>
+          <a href="#" class="label-c">Research</a>
+        </div>
+        <div class="job-posted">Posted 30 mins ago</div>
+      </div>
+
+      <!-- Job 5 -->
+      <div class="job-card">
+        <div class="job-name">
+          <img class="job-profile" src="images/TikTok-Logo.wine.svg" />
+          <div class="job-detail">
+            <h4>TikTok</h4>
+            <h3>Digital Marketer</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </div>
+        </div>
+        <div class="job-label">
+          <a href="#" class="label-a">Content Marketing</a>
+          <a href="#" class="label-b">Marketing Analytics</a>
+          <a href="#" class="label-c">Social Media Trends</a>
+        </div>
+        <div class="job-posted">Posted an hour ago</div>
+      </div>
+
+      <!-- Job 6 -->
+      <div class="job-card">
+        <div class="job-name">
+          <img class="job-profile" src="images/WeChat-Logo.wine.svg" />
+          <div class="job-detail">
+            <h4>WeChat</h4>
+            <h3>Backend Developer</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </div>
+        </div>
+        <div class="job-label">
+          <a href="#" class="label-a">Python</a>
+          <a href="#" class="label-b">RESTFramework</a>
+          <a href="#" class="label-c">GIT</a>
+        </div>
+        <div class="job-posted">Posted an hour ago</div>
+      </div>
+      <button class="job-more">More Jobs</button>
+    </section>
+
+    <!-- join -->
+    <section class="join">
+      <div class="join-detail">
+        <h1 class="section-title">TIME TO APPLY FOR YOUR NEW JOB</h1>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br />
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        </p>
+      </div>
+      <button class="join-button">Apply Now</button>
+    </section>
+
+    <!-- featured companies -->
+    <section class="featured" id="companies">
+      <h1 class="section-title">Featured Companies</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, a saepe,
+        harum enim facere porro doloribus reiciendis expedita excepturi.
+      </p>
+      <div class="featured-wrapper">
+        <div class="featured-card">
+          <img
+            src="images/Amazon_(company)-Logo.wine.svg"
+            alt=""
+            class="featured-image"
+          />
+          <p>Amazon</p>
+          <button class="featured-button">View 2 jobs</button>
+        </div>
+
+        <div class="featured-card">
+          <img src="images/Disney_wordmark.svg" alt="" class="featured-image" />
+          <p>Disney</p>
+          <button class="featured-button">View 4 jobs</button>
+        </div>
+
+        <div class="featured-card">
+          <img
+            src="images/Microsoft-Logo.wine.svg"
+            alt=""
+            class="featured-image"
+          />
+          <p>Microsoft</p>
+          <button class="featured-button">View 1 job</button>
+        </div>
+
+        <div class="featured-card">
+          <img
+            src="images/Reddit-Logo.wine.svg"
+            alt=""
+            class="featured-image"
+          />
+          <p>Reddit</p>
+          <button class="featured-button">View 2 jobs</button>
+        </div>
+
+        <div class="featured-card">
+          <img
+            src="images/WeChat-Logo.wine.svg"
+            alt=""
+            class="featured-image"
+          />
+          <p>WeChat</p>
+          <button class="featured-button">View 5 jobs</button>
+        </div>
+
+        <div class="featured-card">
+          <img
+            src="images/TikTok-Logo.wine.svg"
+            alt=""
+            class="featured-image"
+          />
+          <p>Tiktok</p>
+          <button class="featured-button">View 2 jobs</button>
+        </div>
+
+        <div class="featured-card">
+          <img
+            src="images/Pandora_Radio-Logo.wine.svg"
+            alt=""
+            class="featured-image"
+          />
+          <p>Pandora</p>
+          <button class="featured-button">View 1 job</button>
+        </div>
+
+        <div class="featured-card">
+          <img
+            src="images/Shazam_(application)-Logo.wine.svg"
+            alt=""
+            class="featured-image"
+          />
+          <p>Shazam</p>
+          <button class="featured-button">View 3 jobs</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials" id="testimonials">
+      <h1 class="section-title">Testimonials</h1>
+      <p>Let's see what people are saying about us</p>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <i class="fas fa-quote-left"></i>
+            <h3>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit,
+              quibusdam voluptate.
+            </h3>
+            <div class="testimony-pic">
+              <img src="images/testimonial1.jpg" alt="">
+              <p>Alfred Rewane</p>
+              <span>Software Engineer</span>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <i class="fas fa-quote-left"></i>
+            <h3>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit,
+              quibusdam voluptate.
+            </h3>
+            <div class="testimony-pic">
+              <img src="images/testimonial2.jpg" alt="">
+              <p>Herbert Macualy</p>
+              <span>Project Manager</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
