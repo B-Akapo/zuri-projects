@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Bunmi Akapo - Portfolio</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script
+      src="https://kit.fontawesome.com/f03e8574b6.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/loggo.png" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Projects</a></li>
+            <li><a href="#contact" target="_blank">Mail Me</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <h1>Hello, I Am Bunmi Akapo</h1>
+          <p>
+            I am a mom, content developer and
+            <a href="#portfolio" style="text-decoration: none"
+              ><span><strong>Software Engineer</strong></span></a
+            >
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- ---------  About Me --------- -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/AvatarMaker__1_-removebg-preview.png" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p id="about-me">
+              I am a former lawyer who is now a software engineer. I practiced
+              law for five years before moving on to content creation and
+              instructional design. After three years, I decided to leave the
+              tech fringes and dive headfirst into the world of software
+              engineering.
+              <br />
+              <br />
+              I am a full stack frontend developer and a backend developer in
+              training. I can design websites that are not only visually
+              appealing but also functional and efficient. I enjoy breaking the
+              mold and creating out-of-this-world designs that take people's
+              breath away.
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('hobbies')">Hobbies</p>
+              <p class="tab-links" onclick="opentab('priorities')">
+                Priorities
+              </p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Web Design</span><br />Design Websites and Web Apps
+                </li>
+                <li>
+                  <span>Web Development</span><br />Develop user friendly
+                  websites and web apps
+                </li>
+                <li>
+                  <span>Copywriting</span><br />Create SEO optimised content
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="hobbies">
+              <ul>
+                <li>
+                  <span>Reading</span><br />I enjoy reading fiction and
+                  non-fiction
+                </li>
+                <li><span>Writing</span><br />I love creating content</li>
+                <li><span>Sleep</span><br />Who doesn't love rest</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="priorities">
+              <ul>
+                <li>
+                  <span>Finish Zuri Frontend</span><br />Finish Zuri full stack
+                  frontend by march 2023
+                </li>
+                <li>
+                  <span>Start Backend</span><br />Start Zuri backend program to
+                  becom a full stack engineer
+                </li>
+                <li>
+                  <span>Internship</span><br />Start internship before the end
+                  of 2022
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ---------  Services --------- -->
+
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-sharp fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>
+              I design creative, effective websites that capture your brand,
+              increase conversion rates, and maximize revenue to help you grow
+              your business and achieve your objectives.
+            </p>
+          </div>
+          <div>
+            <i class="fa-solid fa-chalkboard-user"></i>
+            <h2>Web Copywriting</h2>
+            <p>
+              My web copywriting will help you create a unique voice online. I
+              create customer-driven statement that communicates exactly what
+              you offer (and why customers should care) within 5 seconds of them
+              arriving on your landing page or website
+            </p>
+          </div>
+          <div>
+            <i class="fa-solid fa-laptop-code"></i>
+            <h2>User Interface Development</h2>
+            <p>
+              Customers never return to a website after a bad experience. With
+              usability in mind, I complement your web app's robustness with an
+              equally appealing and snappy interface that keeps customers coming
+              back.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ---------  Projects --------- -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">Projects</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/work1.jpg" />
+            <div class="layer">
+              <h3>HTML Table</h3>
+              <p>I can use HTML and CSS to create eye catching documents</p>
+              <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work2.jpg" />
+            <div class="layer">
+              <h3>Web Page</h3>
+              <p>I can design/redesign your webpage or landing page</p>
+              <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work3 (2).png" />
+            <div class="layer">
+              <h3>Web Site</h3>
+              <p>
+                I can design/redesign your website and make it responsive,
+                interactive and user friendly
+              </p>
+              <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn"><strong>See More</strong></a>
+      </div>
+    </div>
+    <!-- ---------  Contact --------- -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Mail Me</h1>
+            <p><i class="fa-solid fa-envelope"></i> bunmi.i.akapo@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i> +234 913 537 5885</p>
+            <div class="social-icons">
+              <a
+                href="https://www.linkedin.com/in/oluwabunmi-akapo-3a314b1aa/"
+                target="_blank"
+                ><i class="fa-brands fa-linkedin-in"></i
+              ></a>
+              <a href="https://www.instagram.com/bunmi.i.akapo/" target="_blank"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="https://twitter.com/AkapoBunmi" target="_blank"
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
+              <a href="https://github.com/B-Akapo" target="_blank"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </div>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <span id="msg"></span>
+              <input type="text" name="name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your email"
+                required
+              />
+              <textarea
+                name="message"
+                rows="6"
+                placeholder="Type message here"
+              ></textarea>
+              <button type="submit" class="btn btn2">
+                <strong>Submit</strong>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="copyright">
+          <p>Copyright © Oluwabunmi Akapo</p>
+        </div>
+      </footer>
+    </div>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+      function closemenu() {
+        sidemenu.style.right = "-200px";
+      }
+    </script>
+
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbyi_fDoAJoiTpl12T7QfV4HUqoq1tt-UhdF9L9oipGLOtGQ4oG7DVvhg8FSG7xoX49Tgg/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message sent successfully.";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 3000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
